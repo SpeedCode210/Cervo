@@ -1,0 +1,174 @@
+html {
+    margin: 0px;
+    background-color: #eee;
+    font-family: 'Cantarell', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px #777;
+    padding: 3px;
+}
+
+header div {
+    margin: auto;
+    width: min-content;
+}
+
+header table {
+    height: 40px;
+}
+
+header img {
+    height: 40px;
+}
+
+article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapper div {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 6px #ddd;
+}
+
+.wrapper div img {
+    max-width: 75%;
+    margin: auto;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-auto-columns: 23vw;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.btn {
+    padding: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 7px;
+    background-color: rgb(38, 139, 206);
+    color: white;
+    font-weight: bold;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-auto-columns: 85vw;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        display: grid;
+        grid-auto-columns: 46vw;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(150px, auto);
+    }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .three {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .four {
+        grid-column: 2;
+        grid-row: 2;
+    }
+}
+
+@media only screen and (min-width: 955px) {
+    .wrapper {
+        display: grid;
+        grid-auto-columns: 23vw;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(150px, auto);
+    }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .three {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .four {
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+}
