@@ -19,6 +19,8 @@ function onInput(){
         prix = "-250000";
     else if(prenom == "yanis")
         prix = "210";
+        else if(prenom == "raouf")
+        prix = "78000000";
     else if(prenom == "eric")
         prix = "-450000";
     else{
