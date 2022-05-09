@@ -14,15 +14,15 @@ function onInput(){
     let prix = "" + 0;
 
     if(prenom == "eden")
-        prix = "∞";
+        prix = "9620014475520";
     else if(prenom == "remy")
-        prix = "-250000";
+        prix = "-25000";
     else if(prenom == "yanis")
-        prix = "210";
+        prix = "2100000";
         else if(prenom == "raouf")
         prix = "78000000";
     else if(prenom == "eric")
-        prix = "-450000";
+        prix = "-850000";
     else{
         if(dict.has(prenom + age)){
             prix = dict.get(prenom + age);
